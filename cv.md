@@ -39,6 +39,13 @@ function toCamelCase(str){
 };
 ```
 
+## Education (earliest first):
+* [Transnistrian state university](http://spsu.ru/). Faculty of philology
+* [Python courses by Stepik](https://stepik.org/users/199106724)
+* JavaScript Tutorial on [learnjavascript.ru](learnjavascript.ru)
+* HTML, CSS courses by [Hexlet](https://ru.code-basics.com/)
+* Selfeducation
+
 
 
 
