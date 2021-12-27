@@ -7,19 +7,20 @@
 * Telegram: @Olga_Antushevich
 * GitHub: [Oreada](https://github.com/Oreada)
 
+
 ## About myself:
-I am going to gain enough knowledge at RS-School to start working as Front-End Developer. I like books, art and learning something new.
+I am going to gain enough knowledge in RS-School to start working as Front-End Developer. I like books, art, intellectual games and learning something new every day.
+
 
 ## Skills:
-
 * HTML5, CSS3, SCSS, BEM
 * JavaScript Basics
 * Git, GitHub
 * Adobe Photoshop, Figma
 * Python Basics
 
-## Code Example:
 
+## Code Example:
 6 kyu KATA from CODEWARS: *Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized.*
 
 ```
@@ -39,6 +40,7 @@ function toCamelCase(str){
 };
 ```
 
+
 ## Education (earliest first):
 * [Transnistrian state university](http://spsu.ru/). Faculty of philology
 * [Python courses by Stepik](https://stepik.org/users/199106724)
@@ -47,8 +49,12 @@ function toCamelCase(str){
 * Selfeducation
 
 
+## Experience:
+* Teacher of Russian language and Literature
+* Content-manager
+* Student in RS-School
 
 
-
-
+## English:
+Intermediate (B1)
 
