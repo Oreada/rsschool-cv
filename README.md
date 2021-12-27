@@ -1,2 +1,2 @@
 # rsschool-cv
-CV
+https://Oreada.github.io/rsschool-cv/cv
