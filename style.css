@@ -443,6 +443,32 @@ body {
 .experience__item {
 }
 
+.main__projects {
+}
+
+.projects {
+}
+
+.projects__body {
+}
+
+.projects__title {
+}
+
+.projects__list {
+}
+
+.projects__item {
+}
+
+.projects__link {
+	color: inherit;
+}
+
+.projects__link:hover {
+	text-decoration: underline;
+}
+
 /* ------------ footer ---------------------------- */
 .footer {
 }
