@@ -136,14 +136,8 @@ body {
 	flex: 1 1 auto;
 }
 
-.two-columns__container {
-}
-
 .two-columns__box {
 	display: flex;
-}
-
-.two-columns__column {
 }
 
 /* ------------ left-column ---------------------------- */
@@ -167,12 +161,6 @@ body {
 	.left-column {
 		padding: 50px 30px 50px 30px;
 	}
-}
-
-.left-column__header {
-}
-
-.header {
 }
 
 .header__box {
@@ -214,15 +202,6 @@ body {
 	}
 }
 
-.left-column__aside {
-}
-
-.aside {
-}
-
-.aside__box {
-}
-
 .aside__title {
 	display: flex;
 	justify-content: center;
@@ -236,12 +215,6 @@ body {
 	background-color: #faf9f6;
 
 	margin: 0px 0px 50px 0px;
-}
-
-.aside__contacts {
-}
-
-.aside__item {
 }
 
 .aside__link {
@@ -284,9 +257,6 @@ body {
 	}
 }
 
-.right-column__menu {
-}
-
 .menu {
 	/* margin-bottom: 50px; */
 }
@@ -297,9 +267,6 @@ body {
 	align-items: flex-start;
 }
 
-.menu__item {
-}
-
 .menu__item:hover {
 	/* background-color: #b2beb5; */
 	text-decoration: underline;
@@ -308,75 +275,6 @@ body {
 .menu__link {
 	color: inherit;
 	text-transform: uppercase;
-}
-
-.right-column__main {
-}
-
-.main {
-}
-
-.main__about {
-}
-
-.about {
-}
-
-.about__body {
-}
-
-.about__title {
-}
-
-.about__text {
-}
-
-.main__english {
-}
-
-.english {
-}
-
-.english__body {
-}
-
-.english__title {
-}
-
-.english__text {
-}
-
-.main__skills {
-}
-
-.skills {
-}
-
-.skills__body {
-}
-
-.skills__title {
-}
-
-.skills__list {
-}
-
-.skills__item {
-}
-
-.main__code {
-}
-
-.code {
-}
-
-.code__body {
-}
-
-.code__title {
-}
-
-.code__text {
 }
 
 .code__kata {
@@ -399,66 +297,12 @@ body {
 	}
 }
 
-.main__education {
-}
-
-.education {
-}
-
-.education__body {
-}
-
-.education__title {
-}
-
-.education__list {
-}
-
-.education__item {
-}
-
 .education__link {
 	color: inherit;
 	/* text-decoration: underline; */
 }
 .education__link:hover {
 	text-decoration: underline;
-}
-
-.main__experience {
-}
-
-.experience {
-}
-
-.experience__body {
-}
-
-.experience__title {
-}
-
-.experience__list {
-}
-
-.experience__item {
-}
-
-.main__projects {
-}
-
-.projects {
-}
-
-.projects__body {
-}
-
-.projects__title {
-}
-
-.projects__list {
-}
-
-.projects__item {
 }
 
 .projects__link {
@@ -470,12 +314,6 @@ body {
 }
 
 /* ------------ footer ---------------------------- */
-.footer {
-}
-
-.footer__container {
-}
-
 .footer__row {
 	display: flex;
 	justify-content: space-around;
@@ -490,9 +328,6 @@ body {
 
 .footer__github img {
 	max-width: 100%;
-}
-
-.footer__date {
 }
 
 .footer__rsschool {
