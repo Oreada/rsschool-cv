@@ -146,25 +146,17 @@
                                     <div class="code__text">
 
                                         <div class="code__kata">
-                                            6 kyu KATA from CODEWARS: Complete the method/function so that it converts
-                                            dash/underscore delimited words into camel casing. The first word within the
-                                            output should be capitalized only if the original word was capitalized.
+                                            Task from SCRIMBA: Your function should take in a food object and find the
+                                            food with the most votes. It should log the winner, along with how many
+                                            votes it received.
                                         </div>
 
                                         <pre><code class="language-js code__solution">
-function toCamelCase(str){
-  let splited = str.includes('-') ? str.split('-') : str.split('_');
-  
-  let maped = splited.map(function(word, index) {
-    if (index == 0) {
-      return word;
-    } else {
-      return word.charAt(0).toUpperCase() + word.slice(1);
-    };  
-  });
-  
-  return maped.join('');
-};
+function findTheWinner(obj){
+    let arrEntries = Object.entries(obj);
+    arrEntries.sort((a, b) => b[1] - a[1]);
+    return `The winner is ${arrEntries[0][0]} with ${arrEntries[0][1]} votes!`;
+}
                                     </code></pre>
 
                                     </div>

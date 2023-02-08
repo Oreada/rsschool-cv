@@ -311,15 +311,15 @@ body {
   font-size: 14px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .code__solution {
-    margin-left: -150px;
+    margin-left: -200px;
   }
 }
 
 @media (max-width: 850px) {
   .code__solution {
-    margin-left: -250px;
+    margin-left: -300px;
   }
 }
 
