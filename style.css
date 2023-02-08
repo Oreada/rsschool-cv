@@ -234,6 +234,10 @@ body {
 
 /* ------------ right-column ---------------------------- */
 
+.about__text>*:not(:last-child) {
+  margin: 0px 0px 20px 0px;
+}
+
 .title {
   display: flex;
   justify-content: center;
@@ -291,7 +295,7 @@ body {
 .skills__list,
 .experience__list,
 .projects__list {
-  padding-left: 30px;
+  padding-left: 22px;
 }
 
 .experience__link {
@@ -346,7 +350,7 @@ ul[class="experience__inner"] li::marker {
 }
 
 .experience__inner {
-  padding-left: 30px;
+  padding-left: 22px;
 }
 
 /* ------------ footer ---------------------------- */
