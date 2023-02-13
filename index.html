@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/192.png" type="image/svg+xml">
+    <link rel="icon" href="img/512.png" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,regular,500,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,regular,700&display=swap" rel="stylesheet" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="two-columns">
+            <div class="two-columns__container _container">
+                <div class="two-columns__box">
+
+                    <div class="two-columns__column left-column">
+
+                        <header class="left-column__header header">
+                            <div class="header__box">
+
+                                <div class="header__photo">
+                                    <img src="img/my_photo.jpg" alt="My photo">
+                                </div>
+
+                                <h1 class="header__name">Olga Antushevich</h1>
+
+                                <div class="header__prof">Front-End Developer</div>
+
+                            </div>
+                        </header>
+
+                        <aside class="left-column__aside aside">
+                            <div class="aside__box">
+
+                                <ul class="aside__contacts">
+                                    <li class="aside__item">
+                                        Location: Moldova, Tiraspol
+                                    </li>
+                                    <li class="aside__item">
+                                        <a href="mailto:antushevich@gmail.com" class="aside__link">E-mail:
+                                            antushevich@gmail.com</a>
+                                    </li>
+                                    <li class="aside__item">
+                                        <a href="tel:37377797666" class="aside__link">Phone: +373 77797666</a>
+                                    </li>
+                                    <li class="aside__item">
+                                        <a href="https://t.me/Olga_Antushevich" class="aside__link"
+                                            target="_blank">Telegram: @Olga_Antushevich</a>
+                                    </li>
+                                    <li class="aside__item">
+                                        <a href="https://github.com/Oreada" class="aside__link" target="_blank">GitHub:
+                                            Oreada</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </aside>
+
+                    </div>
+
+                    <div class="two-columns__column right-column">
+
+                        <nav class="right-column__menu menu">
+                            <ul class="menu__list">
+
+                                <li class="menu__item">
+                                    <a href="#skills" class="menu__link">skills</a>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="#code" class="menu__link">code</a>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="#experience" class="menu__link">experience</a>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="#projects" class="menu__link">projects</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+
+                        <main class="right-column__main main">
+
+                            <section class="main__about about">
+                                <div class="about__body">
+
+                                    <h2 class="about__title title">About me:</h2>
+
+                                    <div class="about__text">
+                                        <p> I am a beginner React developer. I like books, art,
+                                            intellectual games and learning something new every day.</p>
+                                        <p> In programming, I appreciate the combination of the intellectual challenge
+                                            and the creative process. In addition, it is an endless space for
+                                            progression.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <section class="main__english english">
+                                <div class="english__body">
+
+                                    <h2 class="english__title title">Languages:</h2>
+
+                                    <p class="english__text">English: Intermediate (B1)</p>
+                                    <p class="english__text">Romanian: Beginner</p>
+                                    <p class="english__text">Russian: Native</p>
+
+                                </div>
+                            </section>
+
+                            <section class="main__skills skills">
+                                <div class="skills__body">
+
+                                    <h2 class="skills__title title" id="skills">Skills:</h2>
+
+                                    <ul class="skills__list">
+                                        <li class="skills__item">React</li>
+                                        <li class="skills__item">TypeScript</li>
+                                        <li class="skills__item">JavaScript</li>
+                                        <li class="skills__item">Material UI, Tailwind</li>
+                                        <li class="skills__item">Git, GitHub</li>
+                                        <li class="skills__item">HTML, CSS, SASS, BEM</li>
+                                        <li class="skills__item">Figma, Photoshop</li>
+                                    </ul>
+
+                                </div>
+                            </section>
+
+                            <section class="main__code code">
+                                <div class="code__body">
+
+                                    <h2 class="code__title title" id="code">Code Example:</h2>
+
+                                    <div class="code__text">
+
+                                        <div class="code__kata">
+                                            Task from SCRIMBA: Your function should accept the name object and find the
+                                            name with the most votes. It should register a winner along with the number
+                                            of votes.
+                                        </div>
+
+                                        <pre><code class="language-js code__solution">
+function findTheWinner(obj){
+    let arrEntries = Object.entries(obj);
+    arrEntries.sort((a, b) => b[1] - a[1]);
+    return `The winner is ${arrEntries[0][0]} with ${arrEntries[0][1]} votes!`;
+}
+                                    </code></pre>
+
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <section class="main__experience experience">
+                                <div class="experience__body">
+
+                                    <h2 class="experience__title title" id="experience">Experience:</h2>
+
+                                    <ul class="experience__list">
+                                        <li class="experience__item">Teacher of Russian language and Literature.
+                                            (Graduated from Faculty of philology of Transnistrian state
+                                            university)</li>
+                                        <li class="experience__item">Content-manager</li>
+                                        <li class="experience__item">Student in
+                                            <a href="https://rs.school/index.html" class="experience__link"
+                                                target="_blank">RS-School:</a>
+                                            <ul class="experience__inner">
+                                                <li class="experience__item">JavaScript/Front-end Pre-School. <a
+                                                        href="https://app.rs.school/certificate/e4vb4hoy"
+                                                        class="experience__link" target="_blank">Certificate</a></li>
+                                                <li class="experience__item">JavaScript/Front-end Main course (with
+                                                    Mentor). <a href="https://app.rs.school/certificate/zof0t2lh"
+                                                        class="experience__link" target="_blank">Certificate</a></li>
+                                                <li class="experience__item">React (with Mentor). <a
+                                                        href="https://app.rs.school/certificate/qalxd4sj"
+                                                        class="experience__link" target="_blank">Certificate</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </section>
+
+                            <section class="main__projects projects">
+                                <div class="projects__body">
+
+                                    <h2 class="projects__title title" id="projects">Projects:</h2>
+
+                                    <ul class="projects__list">
+
+                                        <li class="projects__item">
+                                            <a href="https://oreada-artwork-finder.netlify.app/" class="projects__link"
+                                                target="_blank">Artwork Finder (React,
+                                                TypeScript)</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://oreada-mem-generator.netlify.app/" class="projects__link"
+                                                target="_blank">Mem generator (React, TypeScript)</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://react-oreada-capstone-project-photos.netlify.app/"
+                                                class="projects__link" target="_blank">Photos store (React,
+                                                TypeScript)</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://oreada-speed-typing-game.netlify.app"
+                                                class="projects__link" target="_blank">Speed typing game (React,
+                                                TypeScript)</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://kateblazhko.github.io/project-management-app/"
+                                                class="projects__link" target="_blank">Project management app (React,
+                                                TypeScript) - team project</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://oreada.github.io/online-store-backpacks"
+                                                class="projects__link" target="_blank">Online store Backpacks
+                                                (JavaScript)</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://oreada.github.io/virtual-keyboard/dist/"
+                                                class="projects__link" target="_blank">Virtual keyboard (JavaScript)</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://oreada.github.io/portfolio-with-custom-video-player/"
+                                                class="projects__link" target="_blank">Photographer portfolio with
+                                                custom video player (JavaScript)</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://oreada.github.io/shelter-site/pages/main/index.html"
+                                                class="projects__link" target="_blank">Shelter site (JavaScript)</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://oreada.github.io/memory-game/" class="projects__link"
+                                                target="_blank">Memory game (JavaScript)</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://oreada.github.io/quotes-project/" class="projects__link"
+                                                target="_blank">Random quotes project (JavaScript)</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://oreada.github.io/app-5-aim-game/" class="projects__link"
+                                                target="_blank">Aim game (JavaScript)</a>
+                                        </li>
+
+                                        <li class="projects__item">
+                                            <a href="https://oreada.github.io/app-3-reversed-slider/"
+                                                class="projects__link" target="_blank">Reversed slider (JavaScript)</a>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </section>
+
+                        </main>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>hljs.highlightAll();</script>
+
+</body>
+
+</html>

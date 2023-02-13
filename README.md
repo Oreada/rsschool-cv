@@ -1,3 +1,3 @@
-# rsschool-cv
-- https://oreada.github.io/rsschool-cv/cv
-- https://oreada.github.io/rsschool-cv/
+# CV Olga Antushevich
+
+https://oreada.github.io/rsschool-cv/
