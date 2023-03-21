@@ -276,6 +276,11 @@ body {
   text-decoration: underline;
 }
 
+.experience__link:hover {
+  /* text-shadow: 1px 1px 10px #b2beb5; */
+  text-shadow: 0 0 2px #b2beb5, 0 0 10px #b2beb5;
+}
+
 .code__kata {
   margin-bottom: 30px;
 }
